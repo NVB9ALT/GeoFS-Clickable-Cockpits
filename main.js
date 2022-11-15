@@ -1,3 +1,4 @@
+function runClickableCockpits() {
 controls.throttleStepUp = null
 controls.throttleStepDown = null
 geofs.animation.values.dc3Ignition = 1
@@ -201,3 +202,4 @@ geofs.aircraft.instance.engine.on ? geofs.aircraft.instance.stopEngine() : geofs
 	}
 }
 },500)
+}
