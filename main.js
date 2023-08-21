@@ -195,11 +195,5 @@ controls.setters.cycleFlaps.set()
 controls.setters.setAccessories.set()
    }
 }
-//Su-35 engine
-if (geofs.aircraft.instance.id == 18) {
-   if (controls.mouse.clickedNode == "knobs") {
-geofs.aircraft.instance.engine.on ? geofs.aircraft.instance.stopEngine() : geofs.aircraft.instance.startEngine();
-	}
-}
 },500)
 }
